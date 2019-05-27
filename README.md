@@ -28,3 +28,24 @@ curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add -
 sudo apt-get update && sudo apt-get install google-cloud-sdk
 
 
+gcloud init
+
+
+# To continue, you must log in. Would you like to log in (Y/n)? Y
+
+# Pick cloud project to use:
+# [1] [my-project-1]
+# [2] [my-project-2]
+# ...
+# Please enter your numeric choice:
+
+
+gcloud auth list
+
+
+gcloud config list
+
+
+gcloud info
+
+
